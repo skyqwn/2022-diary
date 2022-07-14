@@ -1,0 +1,79 @@
+@import "reset.css";
+
+body {
+  background-image: linear-gradient(120deg, #786fa6, #f8a5c2);
+  height: 100vh;
+  position: relative;
+}
+
+.diary-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto 0px auto;
+}
+
+#diary-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+#diary-form input {
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.date {
+  margin: 5px 0px 5px 0px;
+}
+
+.check-date {
+  max-width: 500px;
+  margin: 0px auto;
+}
+
+#allCheckBtn {
+  margin-left: 25px;
+}
+
+#allCheckBtn {
+  max-width: 500px;
+  margin: 5px auto 0px auto;
+}
+
+#diary-send {
+  margin-left: 100px;
+}
+
+#check-diary {
+  width: 200px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+#check-diary div {
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: beige;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.editBtn {
+  border-radius: 50%;
+}

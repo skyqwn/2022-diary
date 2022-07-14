@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="diary-container">
+      <form id="diary-form">
+        <input type="text" placeholder="제목을 입력해주세요" />
+        <textarea
+          placeholder="할일을 입력해주세요 "
+          id="diary-content"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <div class="date">
+          <select id="month-select"></select>
+          <select id="day-select"></select>
+          <button id="diary-save">저장😉</button>
+        </div>
+      </form>
+      <div class="check-date">
+        <button id="check-btn">모든일정확인</button>
+        <select id="filter-month">
+          <option>월별 일정 확인</option>
+        </select>
+      </div>
+      <div id="check-diary"></div>
+      <script src="diary.js"></script>
+    </div>
+  </body>
+</html>
